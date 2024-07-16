@@ -1144,4 +1144,3 @@ invited to try these exercises.
 .. toctree::
    :hidden:
 
-   solutions.rst

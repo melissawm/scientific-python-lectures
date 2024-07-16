@@ -133,19 +133,18 @@ Running an external command
     obtain the output, error stream and exit code of the external command.
 
     .. ipython::
-        :verbatim:
 
-        In [30]: import sh
-        In [31]: com = sh.ls()
+       In [30]: import sh
+       In [31]: com = sh.ls()
 
-        In [32]: print(com)
-        basic_types.rst   exceptions.rst   oop.rst              standard_library.rst
-        control_flow.rst  first_steps.rst  python_language.rst
-        demo2.py          functions.rst    python-logo.png
-        demo.py           io.rst           reusing_code.rst
+       In [32]: print(com)
+       basic_types.rst   exceptions.rst   oop.rst              standard_library.rst
+       control_flow.rst  first_steps.rst  python_language.rst
+       demo2.py          functions.rst    python-logo.png
+       demo.py           io.rst           reusing_code.rst
 
-        In [33]: type(com)
-        Out[33]: str
+       In [33]: type(com)
+       Out[33]: str
 
 Walking a directory
 ~~~~~~~~~~~~~~~~~~~~
@@ -170,7 +169,6 @@ Environment variables:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. ipython::
-    :verbatim:
 
     In [32]: os.environ.keys()
     Out[32]: KeysView(environ({'SHELL': '/bin/bash', 'COLORTERM': 'truecolor', ...}))
